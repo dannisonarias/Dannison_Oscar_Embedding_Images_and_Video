@@ -6,9 +6,16 @@ header{
 header{
   width: 100%;
 }
-
+.login-image{
+    height:22px;
+    width: 22px;
+    padding-right: 5px;
+}
 
 button{
+    padding: 0;
+    border: none;
+    background: none;
     height: 30px;
 }
 .nav-bar-button{
@@ -20,14 +27,22 @@ button{
     width: 50vw;
 }
 .search-button{
-    /*margin-left: -5px; */
+    border: 1px solid black;
+    height: 36px;
+    padding: 10px 10px;
 }
+
 .upload-button{
 
 }
 .sign-in-button{
-/*    text-align: right; */
-/*    margin-right: 0px; */
+    display: inline-flex;
+    
+    border: 1px solid blue;
+    align-items: center; 
+    color: blue;
+    padding: 0px 10px;
+
 }
 
 div {
@@ -74,4 +89,10 @@ div {
     display: flex;
     float: left;
     align-items: center;
+}
+.apps-icon{
+    height: 22px;
+}
+.settings-icon{
+    height: 22px;
 }
