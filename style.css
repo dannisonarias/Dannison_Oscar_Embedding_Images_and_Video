@@ -1,10 +1,35 @@
-/*
-nav {
-  display: flex;
-  float: left;
+nav{
+    vertical-align: middle;
 }
-*/
 
 li {
-  style: none;
+    vertical-align: middle;
+    display: inline;
+    style: none;
+} 
+button{
+    height: 30px;
+
+}
+.nav-bar-button{
+    
+    margin-right: 50px;
+    
+    
+}
+.search-input{
+    height: 30px;
+    
+
+}
+.search-button{
+
+    
+
+}
+.upload-button{
+
+}
+.sign-in-button{
+
 }
