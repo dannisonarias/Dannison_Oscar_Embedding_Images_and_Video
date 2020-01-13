@@ -1,35 +1,58 @@
 nav{
     vertical-align: middle;
+    width: 100%;
+}
+
+header{
+  width: 100%;
 }
 
 li {
     vertical-align: middle;
     display: inline;
     style: none;
-} 
+}
 button{
     height: 30px;
 
 }
 .nav-bar-button{
-    
+
     margin-right: 50px;
-    
-    
+
+
 }
 .search-input{
     height: 30px;
-    
+    width: 30%;
 
 }
 .search-button{
-
-    
-
+    margin-left: -5px;
 }
 .upload-button{
 
 }
 .sign-in-button{
+/*    text-align: right; */
+/*    margin-right: 0px; */
+}
 
+div {
+  border: 2px solid black;
+}
+
+.floatleft {
+    float:left;
+/*    vertical-align: middle; */
+}
+
+.floatcenter {
+  float: none;
+/*  vertical-align: middle; */
+}
+
+.floatright {
+    float:right;
+  /*  vertical-align: middle; */
 }
