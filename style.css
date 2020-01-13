@@ -37,9 +37,9 @@ button{
 }
 .sign-in-button{
     display: inline-flex;
-    
+
     border: 1px solid blue;
-    align-items: center; 
+    align-items: center;
     color: blue;
     padding: 0px 10px;
 
@@ -112,8 +112,15 @@ aside{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-template-rows: repeat(19,1fr);
+    grid-gap: 10px;
 }
 aside div{
     display: inline-flex;
 
+}
+
+.left-section {
+  display: grid;
+/*  grid-template-columns: auto; */
+  grid-template-rows: 315px, 40px, 50px;
 }
