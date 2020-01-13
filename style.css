@@ -99,7 +99,8 @@ main{
     margin-top: 40px;
     border: 5px solid black;
     display: grid;
-    grid-template-columns: 1fr ,1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 15px;
 }
 
 .left-section{
@@ -121,6 +122,23 @@ aside div{
 
 .left-section {
   display: grid;
-/*  grid-template-columns: auto; */
-  grid-template-rows: 315px, 40px, 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 315px 100px 100px;
+}
+.videoplayer{
+    /* spanning the video player over two columns */
+    grid-column: 1 / span 2; 
+    
+}
+.video-title{
+    margin-top: 20px;
+    font-size: 25px;
+    grid-column:1/ span 2;
+}
+.profile-icon-section{
+    display: flex;
+    float: left;
+}
+.youtube-subscribe-img{
+    width: 150px;
 }
