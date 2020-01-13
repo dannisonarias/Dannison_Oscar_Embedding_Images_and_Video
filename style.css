@@ -10,7 +10,6 @@ header{
 
 button{
     height: 30px;
-
 }
 .nav-bar-button{
 
@@ -18,11 +17,10 @@ button{
 }
 .search-input{
     height: 30px;
-    width: 30%;
-
+    width: 50vw;
 }
 .search-button{
-    margin-left: -5px;
+    /*margin-left: -5px; */
 }
 .upload-button{
 
@@ -33,36 +31,47 @@ button{
 }
 
 div {
-  border: 1px solid black;
+  border: 0px solid black;
 }
 
 .floatleft {
-    /* float:left; */ 
-    vertical-align: middle; 
+    /* float:left; */
+    vertical-align: middle;
 }
 
 .search-input {
-    
+
 }
 
 .floatright {
     /* float:right; */
-   vertical-align: middle; 
+   vertical-align: middle;
 }
 
+.button-image{
+  height: 22px;
+  width: auto;
+}
 
+.youtube-logo-image{
+  height: 30px;
+  width: auto;
+}
 
 .left-menu{
     display: flex;
     float: left;
-    
+/*    justify-content: center; */
+    align-items: center;
 }
 .right-menu{
     display: flex;
     float: right;
+    align-items: center;
 }
 .center-menu{
-    height: 100px;
+    height: 40px;
     display: flex;
     float: left;
+    align-items: center;
 }
