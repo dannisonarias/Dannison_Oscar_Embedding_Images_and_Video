@@ -81,6 +81,7 @@ div {
 }
 .right-menu{
     display: flex;
+    
     float: right;
     align-items: center;
 }
