@@ -1,17 +1,13 @@
-nav{
-    vertical-align: middle;
-    width: 100%;
+header{
+    display: flex;
+    justify-content: space-between;
 }
 
 header{
   width: 100%;
 }
 
-li {
-    vertical-align: middle;
-    display: inline;
-    style: none;
-}
+
 button{
     height: 30px;
 
@@ -19,8 +15,6 @@ button{
 .nav-bar-button{
 
     margin-right: 50px;
-
-
 }
 .search-input{
     height: 30px;
@@ -39,20 +33,36 @@ button{
 }
 
 div {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .floatleft {
-    float:left;
-/*    vertical-align: middle; */
+    /* float:left; */ 
+    vertical-align: middle; 
 }
 
-.floatcenter {
-  float: none;
-/*  vertical-align: middle; */
+.search-input {
+    
 }
 
 .floatright {
-    float:right;
-  /*  vertical-align: middle; */
+    /* float:right; */
+   vertical-align: middle; 
+}
+
+
+
+.left-menu{
+    display: flex;
+    float: left;
+    
+}
+.right-menu{
+    display: flex;
+    float: right;
+}
+.center-menu{
+    height: 100px;
+    display: flex;
+    float: left;
 }
