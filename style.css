@@ -116,7 +116,7 @@ aside{
 }
 aside div{
     display: flex;
-    
+
 
 }
 
@@ -137,27 +137,46 @@ aside div{
     grid-column:1 / span 2;
 }
 .profile-icon-section{
+  border: 1px solid orange;
+
     display: grid;
     grid-column: 1 / span2;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
 }
+
+.icon-element {
+    border: 1px solid black;
+  /* flex-grow: 1; */
+}
+
+.username-subscribe-button {
+    border: 1px solid black;
+  /* flex-grow: 4; */
+}
+
+.views-element {
+    border: 1px solid black;
+  /* flex-grow: 1; */
+}
+
+
 #youtube-subscribe-img{
     width: 150px;
     margin: 0px;
-    
-    
-    
+
+
+
 }
 
 .username-subscribe-button{
   align-items: center;      /* new */
   justify-items: center;    /* new */
- 
+
 }
 
 #profile-icon-image{
-    
-    
+
+
 }
 
 body{
