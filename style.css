@@ -93,8 +93,9 @@ button{
 }
 
 main{
+    border: 5px solid lightgray;
     margin-top: 40px;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     display: grid;
     grid-template-columns:2fr min-content;
     grid-gap: 15px;
@@ -125,6 +126,7 @@ aside div{
     grid-template-rows: 350px 100px 60px 30px 15px;
         grid-column-start: 0;
         grid-column-end: 1;
+        border-right: 10px solid lightgray;
 }
 
 .text-image-container{
@@ -151,6 +153,7 @@ aside div{
     margin-top: 20px;
     font-size: 25px;
     grid-column:1 / span 2;
+    border-top: 13px solid lightgray;
 }
 .profile-icon-section{
   /* border: 1px solid orange; */
@@ -279,11 +282,21 @@ body{
     transform: translateY(-10px);
 }
 
-.show-more-section{
+.show-more-section-container{
     grid-column-start:5 ;
     grid-column: 1 / span 2;
     padding: 0px 10px;
+    border: 8px solid lightgray;
+    
 }
-.show-more-section span{
-    font-weight: bold;
+#description-text{
+    
+}
+#show-more-section{
+    /* display: flex; */
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.6;
+    
+    
 }
