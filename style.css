@@ -139,7 +139,7 @@ aside div{
         grid-column-start: 0;
         grid-column-end: 1;
         border-right: 10px solid rgb(236, 236, 236);;
-        
+
 }
 
 .text-image-container{
@@ -172,7 +172,7 @@ aside div{
     opacity: 0.9;
     padding-top: 10px;
     padding-left: 15px;
-    
+
 }
 .profile-icon-section{
   /* border: 1px solid orange; */
@@ -334,7 +334,7 @@ body{
     justify-content: center;
     align-items: center;
     opacity: 0.6;
-    
+
 }
 #white-space{
     grid-column:1/span 2;
@@ -362,4 +362,29 @@ body{
     color: gray;
     font-weight: bold;
     font-size: 11px;
+}
+
+.footer-container{
+  padding-left: 30px;
+}
+
+.buttons-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 500px;
+}
+
+.information-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 800px;
+}
+
+.legal-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 900px;
 }
