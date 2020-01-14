@@ -124,7 +124,7 @@ aside{
     grid-template-rows:35px repeat(19,1fr);
     grid-gap: 10px;
     margin-left: 20px;
-    min-width: 300px;
+    min-width: 350px;
 }
 aside div{
     display: flex;
@@ -139,6 +139,7 @@ aside div{
         grid-column-start: 0;
         grid-column-end: 1;
         border-right: 10px solid lightgray;
+        
 }
 
 .text-image-container{
@@ -169,6 +170,9 @@ aside div{
     font-family: arial;
     color: black;
     opacity: 0.9;
+    padding-top: 10px;
+    padding-left: 15px;
+    
 }
 .profile-icon-section{
   /* border: 1px solid orange; */
@@ -177,6 +181,8 @@ aside div{
     grid-column: 1 / span2;
     grid-gap:5px;
     grid-template-columns: min-content 3fr auto;
+    padding-top: 5px;
+    padding-left: 15px;
 }
 
 .icon-element {
@@ -265,6 +271,8 @@ body{
     font-size: 12px;
     color: gray;
     font-family:arial;
+    padding-top: 2px;
+    padding-left: 10px;
 
 }
 .thumbs-up-section img{
