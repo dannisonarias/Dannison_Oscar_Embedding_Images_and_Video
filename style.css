@@ -141,11 +141,12 @@ aside div{
 
     display: grid;
     grid-column: 1 / span2;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: min-content 5fr min-content;
 }
 
 .icon-element {
     border: 1px solid black;
+    place-self: center;
   /* flex-grow: 1; */
 }
 
@@ -159,24 +160,33 @@ aside div{
   /* flex-grow: 1; */
 }
 
-
-#youtube-subscribe-img{
-    width: 150px;
-    margin: 0px;
-
-
-
+.username {
+  margin-bottom: 5px;
 }
 
-.username-subscribe-button{
-  align-items: center;      /* new */
-  justify-items: center;    /* new */
+#youtube-subscribe-img{
+    width: auto;
+    height: 27px;
+    margin: 0px;
+}
 
+.viewers{
+      border: 1px solid gray;
+      height: 27px;
+      font-size: 12;
+}
+
+/*  Trying to add number of viewers by subscribe button */
+
+.username-subscribe-button{
+  /* align-items: center;      new */
+  /* justify-items: center;    new */
+  align-self: center;
 }
 
 #profile-icon-image{
-
-
+  height: 48px;
+  width: 48px;
 }
 
 body{
@@ -202,8 +212,8 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    
-    
+
+
 }
 #plus-sign-icon-image{
     /* width: 20px; */
@@ -212,5 +222,5 @@ body{
     display: flex;
 }
 #right-side-thumbs-up-section{
-    display: flex; 
+    display: flex;
 }
