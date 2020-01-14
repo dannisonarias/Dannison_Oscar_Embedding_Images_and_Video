@@ -105,7 +105,6 @@ main{
 .left-section{
     grid-column-start: 0;
     grid-column-end: 1;
-
 }
 aside{
     display: grid;
@@ -124,8 +123,14 @@ aside div{
 .left-section {
   display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 315px 100px 100px;
+    grid-template-rows: 315px 100px 100px 100px;
 }
+
+.text-image-container{
+  display: flex;
+  align-items: center;
+}
+
 .videoplayer{
     /* spanning the video player over two columns */
     grid-column: 1 / span 2;
@@ -141,22 +146,28 @@ aside div{
 
     display: grid;
     grid-column: 1 / span2;
-    grid-template-columns: min-content 5fr min-content;
+    grid-template-columns: min-content 3fr auto;
 }
 
 .icon-element {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     place-self: center;
   /* flex-grow: 1; */
 }
 
 .username-subscribe-button {
-    border: 1px solid black;
+    /* border: 1px solid black; */
   /* flex-grow: 4; */
 }
 
 .views-element {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    place-self: center;
+    font-size: 20px;
+    color: gray;
+    font-family: arial;
+    /* font-weight: bold; */
   /* flex-grow: 1; */
 }
 
@@ -166,14 +177,21 @@ aside div{
 
 #youtube-subscribe-img{
     width: auto;
-    height: 27px;
+    height: 25px;
     margin: 0px;
 }
 
 .viewers{
-      border: 1px solid gray;
-      height: 27px;
-      font-size: 12;
+      display: flex;
+      border: 1px solid lightgray;
+      height: 22px;
+      font-size: 10px;
+      font-family: arial;
+      color: gray;
+      margin-left: -1px;
+      align-items: center;
+      padding-right: 8px;
+      padding-left: 8px;
 }
 
 /*  Trying to add number of viewers by subscribe button */
@@ -207,15 +225,15 @@ body{
     grid-column: 1 / span2;
     border: 1px dotted purple;
     padding-left: 5px;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     padding-right: 5px;
-    
-    
+
+
 
 }
 .thumbs-up-section img{
-    
+
     padding-left: 5px;
     padding-right: 4px;
     width: 22px;
@@ -223,8 +241,8 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    
-    
+
+
 
 
 }
@@ -232,14 +250,14 @@ body{
     /* width: 20px; */
 }
 #left-side-thumbs-up-section{
-    
-    display: flex; 
+
+    display: flex;
     justify-content: center;
 
 }
 #right-side-thumbs-up-section{
-    
-    display: flex; 
+
+    display: flex;
     justify-content: center;
 }
 #dislike-icon-image{
