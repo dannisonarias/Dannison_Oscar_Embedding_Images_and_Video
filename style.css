@@ -282,4 +282,8 @@ body{
 .show-more-section{
     grid-column-start:5 ;
     grid-column: 1 / span 2;
+    padding: 0px 10px;
+}
+.show-more-section span{
+    font-weight: bold;
 }
