@@ -61,56 +61,43 @@ button {
 .floatleft {
 	vertical-align: middle;
 }
-
-.search-input {}
-
 .floatright {
 	vertical-align: middle;
 }
-
 .button-image {
 	height: 22px;
 	width: auto;
 }
-
 .youtube-logo-image {
 	height: 30px;
 	width: auto;
 }
-
 .left-menu {
 	display: flex;
 	float: left;
 	align-items: center;
 }
-
 .right-menu {
 	display: flex;
 	float: right;
 	align-items: center;
 }
-
 .center-menu {
 	height: 40px;
 	display: flex;
 	float: left;
 	align-items: center;
 }
-
 .apps-icon {
 	height: 22px;
 }
-
 .settings-icon {
 	height: 22px;
 }
-
-
 /* ------------------->END OF HEADER SECTION^<--------------------  */
 
 
 /* ------------------->START OF SECTION<--------------------  */
-
 #void-heading {
 	display: none;
 }
@@ -119,16 +106,13 @@ button {
 position: relative;
 padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
 }
-
 iframe{
-position: absolute;
-
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-
 main {
 	border-top: 15px solid rgb(236, 236, 236);
 	;
@@ -142,7 +126,6 @@ main {
 	margin-right: -10px;
 	font-family: arial;
 }
-
 .left-section {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -152,18 +135,15 @@ main {
 	border-right: 10px solid rgb(236, 236, 236);
 	;
 }
-
 .text-image-container {
 	display: flex;
 	align-items: center;
 }
-
 #video-iframe {
 	width: 100%;
 	height: 100%;
 	grid-column: 1 / span 2;
 }
-
 .video-title {
 	margin-top: 20px;
 	font-size: 25px;
@@ -176,7 +156,6 @@ main {
 	padding-top: 10px;
 	padding-left: 15px;
 }
-
 .profile-icon-section {
 	display: grid;
 	grid-column: 1 / span2;
@@ -185,11 +164,9 @@ main {
 	padding-top: 5px;
 	padding-left: 15px;
 }
-
 .icon-element {
 	place-self: center;
 }
-
 .views-element {
 	margin-top: 30px;
 	place-self: center;
@@ -197,20 +174,17 @@ main {
 	color: gray;
 	font-family: arial;
 }
-
 .username {
 	margin-bottom: 5px;
 	font-size: 15px;
 	font-family: arial;
 	color: black;
 }
-
 #youtube-subscribe-img {
 	width: auto;
 	height: 25px;
 	margin: 0px;
 }
-
 .viewers {
 	display: flex;
 	border: 1px solid rgb(236, 236, 236);
@@ -224,16 +198,13 @@ main {
 	padding-right: 8px;
 	padding-left: 8px;
 }
-
 .username-subscribe-button {
 	align-self: center;
 }
-
 #profile-icon-image {
 	height: 48px;
 	width: 48px;
 }
-
 .thumbs-up-section {
 	grid-row-start: 4;
 	grid-row-end: 5;
@@ -248,7 +219,6 @@ main {
 	padding-top: 2px;
 	padding-left: 10px;
 }
-
 .thumbs-up-section img {
 	padding-left: 5px;
 	padding-right: 4px;
@@ -258,14 +228,12 @@ main {
 	justify-content: center;
 	text-align: center;
 }
-
 #plus-sign-icon-image {}
 
 #left-side-thumbs-up-section {
 	display: flex;
 	justify-content: center;
 }
-
 #left-side-thumbs-up-section img {
 	opacity: 0.35;
 }
@@ -274,15 +242,12 @@ main {
 	display: flex;
 	justify-content: center;
 }
-
 #dislike-icon-image {
 	opacity: 0.35;
 }
-
 .txt {
 	transform: translateY(8px);
 }
-
 .show-more-section-container {
 	grid-column-start: 5;
 	grid-column: 1 / span 2;
@@ -290,7 +255,6 @@ main {
 	border-top: 8px solid rgb(236, 236, 236);
 	;
 }
-
 .comments-section {
 	grid-column: 1/span 2;
 	grid-row-start: 7;
@@ -299,19 +263,16 @@ main {
 	align-items: center;
 	opacity: 0.6;
 }
-
 #white-space {
 	grid-column: 1/span 2;
 	grid-row-start: 8;
 	background-color: rgb(236, 236, 236);
 }
-
 #description-text {
 	font-family: arial;
 	font-size: 13px;
 	color: gray;
 }
-
 #show-more-section {
 	text-align: center;
 	text-transform: uppercase;
@@ -320,20 +281,16 @@ main {
 	border-bottom: 8px solid rgb(236, 236, 236);
 	;
 }
-
 #show-more-section p {
 	font-family: arial;
 	color: gray;
 	font-weight: bold;
 	font-size: 11px;
 }
-
-
 /* ------------------->END OF SECTION<--------------------  */
 
 
 /* ------------------->START OF ASIDE<--------------------  */
-
 aside {
 	display: grid;
 	grid-column-start: 1;
@@ -343,22 +300,15 @@ aside {
 	margin-left: 20px;
 	min-width: 350px;
 }
-
 aside div {
 	display: flex;
 }
-
 #autoplay-button-section {
 	display: flex;
 	justify-content: space-between;
 	font-family: arial;
 	align-items: center;
 }
-
-.autoplay-txt{
-	/* transform: translateY(100px); */
-}
-
 #information-icon-image {
 	height: 15px;
 	transform: translateY(2px);
@@ -366,7 +316,6 @@ aside div {
 #toggle-icon-image{
 	width: 35px;
 	height: 20px;
-	/* transform: translateY(0px); */
 }
 .thumbnail-views-title-container{
 	display: grid;
@@ -430,9 +379,7 @@ footer button{
 	text-decoration: none;
 	font-family: arial;
 	font-size: 13px;
-	/* opacity: 0.8; */
 }
-
 .legal-section {
 	display: flex;
 	align-items: center;
@@ -440,7 +387,6 @@ footer button{
 	padding-right: 900px;
 	height:40px;
 }
-
 .legal-section a {
 	color: black;
 	text-decoration: none;
@@ -448,6 +394,4 @@ footer button{
 	font-size: 12px;
 	opacity: 0.8;
 }
-
-
 /* ------------------->END OF FOOTER<--------------------  */
