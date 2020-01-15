@@ -26,14 +26,14 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Dannison Arias**
 
-- Github: [@githubhandle](https://github.com/dannisonarias)
-- Twitter: [@twitterhandle](https://twitter.com/AriasDannison)
+- Github: [@dannisonarias](https://github.com/dannisonarias)
+- Twitter: [@AriasDannison](https://twitter.com/AriasDannison)
 
 👤 **Oscar Mier**
 
-- Github: [@githubhandle](https://github.com/voscarmv)
-- Twitter: [@twitterhandle](https://twitter.com/voscarmv)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@voscarmv](https://github.com/voscarmv)
+- Twitter: [@voscarmv](https://twitter.com/voscarmv)
+- Linkedin: [Oscar Mier](https://www.linkedin.com/in/oscar-mier-072984196/)
 
 ## 🤝 Contributing
 
