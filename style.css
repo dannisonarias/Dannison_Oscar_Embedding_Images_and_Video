@@ -367,6 +367,12 @@ aside div {
 	height: 20px;
 	transform: translateY(16px);
 }
+.thumbnail-views-title-container{
+	display: block;
+	
+}
+.t-title{}
+
 
 
 /* ------------------->END OF ASIDE<--------------------  */
