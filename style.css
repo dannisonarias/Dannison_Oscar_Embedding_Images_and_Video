@@ -361,19 +361,18 @@ aside div {
 	height: 15px;
 	transform: translateY(2px);
 }
-
-#toggle-icon-image {
+#toggle-icon-image{
 	width: 35px;
 	height: 20px;
 	transform: translateY(16px);
 }
 .thumbnail-views-title-container{
-	display: block;
-	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
-.t-title{}
-
-
+.title-thumbnail-views{
+	display: block;
+}
 
 /* ------------------->END OF ASIDE<--------------------  */
 
