@@ -341,7 +341,7 @@ aside {
 	display: grid;
 	grid-column-start: 1;
 	grid-column-end: 2;
-	grid-template-rows: 35px repeat(19, 1fr);
+	grid-template-rows: 35px repeat(9, 94fr);
 	grid-gap: 10px;
 	margin-left: 20px;
 	min-width: 350px;
