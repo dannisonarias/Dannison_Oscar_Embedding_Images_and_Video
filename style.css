@@ -368,10 +368,28 @@ aside div {
 }
 .thumbnail-views-title-container{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 94px;
 }
 .title-thumbnail-views{
 	display: block;
+	padding-left: 8px;
+}
+.thumbnail-video-title{
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+	opacity: 0.9;
+}
+.thumbnail-video-username{
+	font-size: 12px;
+	color: black;
+	opacity: 0.6;
+}
+.thumbnail-video-views{
+	font-size: 12px;
+	color: black;
+	opacity: 0.6;
 }
 
 /* ------------------->END OF ASIDE<--------------------  */
