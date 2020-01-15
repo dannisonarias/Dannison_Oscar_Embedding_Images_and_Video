@@ -132,6 +132,10 @@ button {
 
 /* ------------------->START OF SECTION<--------------------  */
 
+#void-heading {
+	display: none;
+}
+
 main {
 	border-top: 15px solid rgb(236, 236, 236);
 	;
@@ -282,8 +286,8 @@ main {
 	opacity: 0.35;
 }
 
-.thumbs-up-section p {
-	transform: translateY(-4px);
+.txt {
+	transform: translateY(8px);
 }
 
 .show-more-section-container {
@@ -355,6 +359,11 @@ aside div {
 	display: flex;
 	justify-content: space-between;
 	font-family: arial;
+	align-items: center;
+}
+
+.autoplay-txt{
+	/* transform: translateY(100px); */
 }
 
 #information-icon-image {
@@ -364,7 +373,7 @@ aside div {
 #toggle-icon-image{
 	width: 35px;
 	height: 20px;
-	transform: translateY(16px);
+	/* transform: translateY(0px); */
 }
 .thumbnail-views-title-container{
 	display: grid;
