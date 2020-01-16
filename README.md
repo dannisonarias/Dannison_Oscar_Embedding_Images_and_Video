@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-Check the GitHack demo [here](https://rawcdn.githack.com/dannisonarias/Dannison_Oscar_Embedding_Images_and_Video/0e31ec7d79ffbb0d250f6099f020262481d5ea5e/index.html)
+Check the GitHack demo [here](https://rawcdn.githack.com/dannisonarias/Dannison_Oscar_Embedding_Images_and_Video/599e0db8306bad8be7bcaa2709ff8f793533bc22/index.html)
 
 ## Getting Started
 
