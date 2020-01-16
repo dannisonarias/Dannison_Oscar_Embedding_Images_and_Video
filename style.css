@@ -105,7 +105,7 @@ main {
   grid-gap: 15px;
   margin-left: -10px;
   margin-right: -10px;
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 .left-section {
   display: grid;
@@ -129,7 +129,7 @@ main {
   font-size: 25px;
   grid-column: 1 / span 2;
   border-top: 13px solid rgb(236, 236, 236);
-	font-family: arial;
+	font-family: arial, sans-serif;
   color: black;
   opacity: 0.9;
   padding-top: 10px;
@@ -151,12 +151,12 @@ main {
   place-self: center;
   font-size: 20px;
   color: gray;
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 .username {
   margin-bottom: 5px;
   font-size: 15px;
-  font-family: arial;
+  font-family: arial, sans-serif;
   color: black;
 }
 #youtube-subscribe-img {
@@ -169,7 +169,7 @@ main {
   border: 1px solid rgb(236, 236, 236);
 	height: 22px;
   font-size: 10px;
-  font-family: arial;
+  font-family: arial, sans-serif;
   color: gray;
   margin-left: -1px;
   align-items: center;
@@ -192,7 +192,7 @@ main {
   padding-right: 5px;
   font-size: 12px;
   color: gray;
-  font-family: arial;
+  font-family: arial, sans-serif;
   padding-top: 2px;
   padding-left: 10px;
 }
@@ -223,7 +223,7 @@ main {
   transform: translateY(8px);
 }
 .show-more-section-container {
-  grid-column-start: 5;
+
   padding: 0 10px;
   border-top: 8px solid rgb(236, 236, 236);
   grid-column: 1 / span 2;
@@ -242,7 +242,7 @@ main {
   background-color: rgb(236, 236, 236);
 }
 #description-text {
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 13px;
   color: gray;
 }
@@ -254,7 +254,7 @@ main {
   border-bottom: 8px solid rgb(236, 236, 236);
 }
 #show-more-section p {
-  font-family: arial;
+  font-family: arial, sans-serif;
   color: gray;
   font-weight: bold;
   font-size: 11px;
@@ -274,7 +274,7 @@ aside div {
 #autoplay-button-section {
   display: flex;
   justify-content: space-between;
-  font-family: arial;
+  font-family: arial, sans-serif;
   align-items: center;
 }
 #information-icon-image {
@@ -312,9 +312,9 @@ aside div {
 }
 footer button {
   padding: 0 10px;
-  -moz-box-shadow: 0px 0px 2px #000;
-  -webkit-box-shadow: 0px 0px 2px #000;
-  box-shadow: 0px 0px 2px #000;
+  -moz-box-shadow: 0 0 2px #000;
+  -webkit-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
   margin-left: 5px;
 }
 .footer-container {
@@ -340,7 +340,7 @@ footer button {
 .information-section a {
   color: black;
   text-decoration: none;
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 13px;
 }
 .legal-section {
@@ -353,7 +353,7 @@ footer button {
 .legal-section a {
   color: black;
   text-decoration: none;
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 12px;
   opacity: 0.8;
 }
