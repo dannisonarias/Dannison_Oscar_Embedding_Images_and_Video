@@ -28,6 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@dannisonarias](https://github.com/dannisonarias)
 - Twitter: [@AriasDannison](https://twitter.com/AriasDannison)
+- Linkedin: [Dannison Arias](https://www.linkedin.com/in/dannison-arias-777919190/)
 
 👤 **Oscar Mier**
 
@@ -39,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/dannisonarias/Dannison_Oscar_Embedding_Images_and_Video/issues).
 
 ## Show your support
 
