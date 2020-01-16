@@ -24,7 +24,7 @@ button {
   margin-top: -5px;
   margin-right: 10px;
   margin-left: 50px;
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 20px;
   opacity: 0.7;
 }
@@ -43,7 +43,7 @@ button {
   border: 1px solid blue;
   align-items: center;
   color: blue;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 .floatleft {
   vertical-align: middle;
@@ -162,7 +162,7 @@ main {
 #youtube-subscribe-img {
   width: auto;
   height: 25px;
-  margin: 0px;
+  margin: 0;
 }
 .viewers {
   display: flex;
@@ -187,7 +187,6 @@ main {
   grid-row-start: 4;
   grid-row-end: 5;
   grid-column: 1 / span2;
-  padding-left: 5px;
   display: flex;
   justify-content: space-between;
   padding-right: 5px;
@@ -225,9 +224,9 @@ main {
 }
 .show-more-section-container {
   grid-column-start: 5;
-  grid-column: 1 / span 2;
-  padding: 0px 10px;
+  padding: 0 10px;
   border-top: 8px solid rgb(236, 236, 236);
+  grid-column: 1 / span 2;
 }
 .comments-section {
   grid-column: 1/span 2;
@@ -313,9 +312,9 @@ aside div {
 }
 footer button {
   padding: 0 10px;
-  -moz-box-shadow: 0px 0px 2px #000000;
-  -webkit-box-shadow: 0px 0px 2px #000000;
-  box-shadow: 0px 0px 2px #000000;
+  -moz-box-shadow: 0px 0px 2px #000;
+  -webkit-box-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
   margin-left: 5px;
 }
 .footer-container {
